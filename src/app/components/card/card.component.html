@@ -1,0 +1,12 @@
+<div class="card" *ngIf="dog">
+  <div class="card__title">
+    <h3>{{ dog.breed }}</h3>
+  </div>
+  <div class="card__body">
+    <img [src]="dog.imageUrl" [alt]="'Imagem de um ' + dog.breed">
+  </div>
+  <div class="card__info">
+    <h5>Temperament:</h5>
+    <p>{{ dog.temperament }}</p>
+  </div>
+</div>

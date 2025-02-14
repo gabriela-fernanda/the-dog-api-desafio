@@ -1,0 +1,7 @@
+<div class="container-fluid px-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-3" *ngFor="let dog of dogs.slice(0, 15)">
+      <app-card [dog]="dog"></app-card>
+    </div>
+  </div>
+</div>

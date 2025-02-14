@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .row > div {
+    flex: 1 1 19%;
+    margin-right: 1%;
+    margin-bottom: 1rem;
+  }
+}
